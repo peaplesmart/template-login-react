@@ -1,5 +1,5 @@
 export function passwordValidator(password) {
-  if (!password) return "Please fill in this field."
-  if (password.length < 8) return 'Password should contain at least 8 characters.'
+  if (!password) return "Silahakan isi kolom ini"
+  if (password.length < 8) return 'Kata sandi harus berisi minimal 8 karakter.'
   return ''
 }
