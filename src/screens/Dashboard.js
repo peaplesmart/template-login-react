@@ -9,9 +9,9 @@ export default function Dashboard({ navigation }) {
   return (
     <Background>
       <Logo />
-      <Header>Welcome 💫</Header>
+      <Header>Selamat datang 💫</Header>
       <Paragraph>
-        Congratulations you are logged in.
+      Selamat Anda sudah login.
       </Paragraph>
       <Button
         mode="outlined"
@@ -22,7 +22,7 @@ export default function Dashboard({ navigation }) {
           })
         }
       >
-        Sign out
+        Keluar
       </Button>
     </Background>
   )
