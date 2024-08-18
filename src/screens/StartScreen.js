@@ -11,19 +11,19 @@ export default function StartScreen({ navigation }) {
       <Logo />
       <Header>React Native - Expo - Login</Header>
         <Paragraph>
-          A simple React Native Expo Login template app.
+        Aplikasi templat Login React Native Expo sederhana.
         </Paragraph>
       <Button
         mode="contained"
         onPress={() => navigation.navigate('LoginScreen')}
       >
-        Log in
+        Masuk
       </Button>
       <Button
         mode="outlined"
         onPress={() => navigation.navigate('RegisterScreen')}
       >
-        Create an account
+        Buat Akun
       </Button>
     </Background>
   )

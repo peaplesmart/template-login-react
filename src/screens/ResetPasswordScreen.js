@@ -23,7 +23,7 @@ export default function ResetPasswordScreen({ navigation }) {
     <Background>
       <BackButton goBack={navigation.goBack} />
       <Logo />
-      <Header>Reset your password.</Header>
+      <Header>Setel ulang kata sandi Anda.</Header>
       <TextInput
         label="Email"
         returnKeyType="done"
